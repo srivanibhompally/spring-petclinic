@@ -1,5 +1,5 @@
 steps:
 - name: 'maven:3.6-jdk-8'
-  args: ['package']
+  args: ['mvn package']
 - name: 'ubuntu'
   args: ['ls; pwd; mount']
