@@ -1,5 +1,7 @@
 steps:
-- name: 'gcr.io/cloud-builders/mvn'
+- name: 'maven:3.6-jdk-8'
   args: ['package']
+  options:
+    machineType: 'N1_HIGHCPU_8'
 - name: 'ubuntu'
   args: ['ls; pwd; mount']
