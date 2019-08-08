@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['package']
+- name: 'ubuntu'
+  args: ['ls; pwd; mount']
