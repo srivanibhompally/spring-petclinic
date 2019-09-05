@@ -3,7 +3,6 @@ steps:
   args: ['package']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/my-project-id/mypetclinic:latest', '.']
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/my-project-id/mypetclinic:latest']
+images: ['gcr.io/my-project-id/mypetclinic:latest']
   
   
