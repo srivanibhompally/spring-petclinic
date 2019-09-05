@@ -5,4 +5,3 @@ steps:
   args: ['build', '-t', 'gcr.io/myproject/myimage', '.']
 images: ['gcr.io/myproject/myimage']
   
-  
