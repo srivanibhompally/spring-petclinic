@@ -7,5 +7,4 @@ steps:
   - --cluster=petclinic-cluster	
   - --app=petclinic
   - --expose=8080
-options:
-    machineType: 'N1_HIGHCPU_8'
+
