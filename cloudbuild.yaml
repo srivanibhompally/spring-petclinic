@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/mvn:3.5.0-jdk-8'
   args: ['package']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/my-project-id/mypetclinic:latest', '.']
-images: ['gcr.io/my-project-id/mypetclinic:latest']
+  args: ['build', '-t', 'gcr.io/myproject/myimage', '.']
+images: ['gcr.io/myproject/myimage']
   
   
