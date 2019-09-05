@@ -6,6 +6,5 @@
   - --cluster=petclinic-cluster	
   - --app=petclinic
   - --expose=8080
-  - --namespace=default
 options:
     machineType: 'N1_HIGHCPU_8'
