@@ -1,0 +1,11 @@
+- name: 'gcr.io/cloud-builders/gke-deploy:stable'
+  args:
+  - run
+  - --image=gcr.io/$PROJECT_ID/petclinic:latest
+  - --location=us-central1-a
+  - --cluster=petclinic-cluster	
+  - --app=petclinic
+  - --expose=8080
+  - --namespace=default
+options:
+    machineType: 'N1_HIGHCPU_8'
