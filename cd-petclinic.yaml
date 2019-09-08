@@ -4,7 +4,7 @@ steps:
   - run
   - --image=gcr.io/$PROJECT_ID/petclinic:latest
   - --location=us-central1-a
-  - --cluster=petclinic-cluster	
+  - --cluster= ct-cluster-haris	
   - --app=petclinic
   - --expose=8080
 
